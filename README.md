@@ -1,4 +1,4 @@
-# Proyek Analisis Data: E-Commerce Public Dataset (Olist)
+# Proyek Analisis Data: E-Commerce Public Dataset
 
 ## Deskripsi Proyek
 
