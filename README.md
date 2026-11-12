@@ -58,7 +58,7 @@ Dashboard akan terbuka di browser pada alamat `http://localhost:8501`.
 
 ## Dashboard Online
 
-Dashboard yang sudah dideploy dapat diakses melalui tautan yang tertera pada file `url.txt`.
+https://novasquad-2z7d2b3wcib9qmnawgccxi.streamlit.app/
 
 ## Sumber Data
 
