@@ -6,7 +6,7 @@ import seaborn as sns
 import streamlit as st
 
 sns.set(style="darkgrid")
-st.set_page_config(page_title="Dashboard E-Commerce Olist", layout="wide")
+st.set_page_config(page_title="Dashboard E-Commerce", layout="wide")
 
 
 def load_data():
@@ -55,7 +55,7 @@ if df.empty:
 orders = df.drop_duplicates(subset="order_id").copy()
 
 # header
-st.title("Dashboard Analisis Data E-Commerce Olist")
+st.title("Dashboard Analisis Data E-Commerce")
 st.write(
     "Dashboard ini menjawab dua pertanyaan bisnis: (1) kategori produk dengan "
     "pendapatan tertinggi dan terendah, dan (2) pengaruh keterlambatan pengiriman "
@@ -231,4 +231,4 @@ st.write(
     "untuk meningkatkan retensi pelanggan."
 )
 
-st.caption("Sumber data: E-Commerce Public Dataset (Olist)")
+st.caption("Sumber data: E-Commerce Public Dataset")
