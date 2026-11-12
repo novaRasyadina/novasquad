@@ -2,7 +2,7 @@
 
 ## Deskripsi Proyek
 
-Proyek ini menganalisis E-Commerce Public Dataset milik Olist, sebuah marketplace di Brasil. Analisis dilakukan untuk menjawab dua pertanyaan bisnis berikut:
+Proyek ini menganalisis E-Commerce Public Dataset, sebuah marketplace di Brasil. Analisis dilakukan untuk menjawab dua pertanyaan bisnis berikut:
 
 1. Kategori produk apa yang memberikan kontribusi pendapatan tertinggi dan terendah pada periode 2017-2018?
 2. Bagaimana pengaruh keterlambatan pengiriman terhadap skor ulasan pelanggan pada periode 2017-2018?
@@ -29,6 +29,8 @@ submission
 - `notebook.ipynb` berisi seluruh proses analisis data, mulai dari gathering data sampai conclusion.
 - `requirements.txt` berisi daftar library yang dibutuhkan.
 - `url.txt` berisi tautan dashboard yang sudah dideploy.
+
+Folder `data` hanya disertakan pada file ZIP submission karena ukuran dataset terlalu besar untuk diunggah ke GitHub.
 
 ## Setup Environment
 
@@ -60,4 +62,4 @@ Dashboard yang sudah dideploy dapat diakses melalui tautan yang tertera pada fil
 
 ## Sumber Data
 
-E-Commerce Public Dataset (Olist), tersedia di Kaggle: Brazilian E-Commerce Public Dataset by Olist.
+E-Commerce Public Dataset
