@@ -48,7 +48,7 @@ python -m streamlit run dashboard/dashboard.py
 Dashboard akan terbuka di browser pada alamat `http://localhost:8501`.
 
 ## Dashboard Online
-
+https://novasquad-2z7d2b3wcib9qmnawgccxi.streamlit.app/
 Tautan dashboard yang sudah dideploy tertulis pada berkas `url.txt`.
 
 ## Catatan
