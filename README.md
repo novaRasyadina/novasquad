@@ -1,13 +1,6 @@
-# Proyek Analisis Data: E-Commerce Public Dataset
+# Dashboard Analisis Data E-Commerce
 
-## Deskripsi Proyek
-
-Proyek ini menganalisis E-Commerce Public Dataset, sebuah marketplace di Brasil. Analisis dilakukan untuk menjawab dua pertanyaan bisnis berikut:
-
-1. Kategori produk apa yang memberikan kontribusi pendapatan tertinggi dan terendah pada periode 2017-2018?
-2. Bagaimana pengaruh keterlambatan pengiriman terhadap skor ulasan pelanggan pada periode 2017-2018?
-
-Selain itu, proyek ini memuat analisis lanjutan berupa geospatial analysis dan RFM analysis (Recency, Frequency, Monetary), serta pengelompokan keterlambatan menggunakan teknik binning.
+Proyek ini menganalisis E-Commerce Public Dataset untuk menjawab dua pertanyaan bisnis, lalu menampilkan hasilnya dalam dashboard Streamlit. Selain itu, proyek ini memuat analisis lanjutan berupa geospatial analysis dan RFM analysis, serta pengelompokan keterlambatan dengan teknik binning.
 
 ## Struktur Direktori
 
@@ -24,25 +17,23 @@ submission
 └── url.txt
 ```
 
-- `dashboard/` berisi file dashboard Streamlit dan data hasil olahan (`main_data.csv`).
-- `data/` berisi dataset asli.
-- `notebook.ipynb` berisi seluruh proses analisis data, mulai dari gathering data sampai conclusion.
-- `requirements.txt` berisi daftar library yang dibutuhkan.
-- `url.txt` berisi tautan dashboard yang sudah dideploy.
+## Setup Environment - Anaconda
 
-Folder `data` hanya disertakan pada file ZIP submission karena ukuran dataset terlalu besar untuk diunggah ke GitHub.
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
 
-## Setup Environment
-
-Pastikan Python sudah terpasang, lalu jalankan perintah berikut di folder utama proyek:
+## Setup Environment - Shell/Terminal
 
 ```
 pip install -r requirements.txt
 ```
 
-## Menjalankan Dashboard
+## Run Streamlit App
 
-Dari folder utama proyek, jalankan:
+Jalankan perintah berikut dari folder utama proyek (folder yang berisi folder `dashboard`):
 
 ```
 streamlit run dashboard/dashboard.py
@@ -58,8 +49,8 @@ Dashboard akan terbuka di browser pada alamat `http://localhost:8501`.
 
 ## Dashboard Online
 
-https://novasquad-2z7d2b3wcib9qmnawgccxi.streamlit.app/
+Tautan dashboard yang sudah dideploy tertulis pada berkas `url.txt`.
 
-## Sumber Data
+## Catatan
 
-E-Commerce Public Dataset
+Folder `data` hanya disertakan pada berkas ZIP submission karena ukuran dataset terlalu besar untuk diunggah ke GitHub.
